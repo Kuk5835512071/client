@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello world</title>
+	<script type="text/javascript">
+	
+		var obj = {
+			'name' : 'John',
+			'age' : 30,
+			'link' : {
+				'web1' : 'http://google.com',
+				'web2' : 'http://yahoo.com'
+			},
+			'color' : ['red','green','blue']
+		}
+			console.log(obj.age)
+			for(item in obj){
+				console.log(item + ':' +obj[item])
+				for(subItem in obj[item])
+					console.log(obj[item][subItem])
+			
+
+		}
+	</script>
+</head>
+<body>
+	<h1>Hello world</h1>
+
+</body>
+</html>
